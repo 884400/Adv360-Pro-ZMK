@@ -1,3 +1,9 @@
+macro_explode: macro_explode{
+compatible = "zmk,behavior-macro";
+label = "macro_explode";
+#binding-cells = <0>;
+bindings = <&kp UP_ARROW>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
